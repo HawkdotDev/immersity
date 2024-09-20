@@ -30,16 +30,16 @@ const Navbar = () => {
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <Link
+              to="/brochure"
+              className="py-2 px-3 rounded-md hover:bg-pink-500 font-semibold hover:text-black text-gray-200 border border-pink-600"
+            >
+              Brochure
+            </Link>
+            <Link
               to="/signin"
               className="py-2 px-3 border border-emerald-400 rounded-md hover:bg-purple-600 hover:text-black"
             >
               Sign In
-            </Link>
-            <Link
-              to="/signup"
-              className="py-2 px-3 rounded-md hover:bg-blue-500 hover:text-black text-gray-200 border border-pink-600"
-            >
-              Create an account
             </Link>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end items-center">

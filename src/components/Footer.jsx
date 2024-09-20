@@ -1,7 +1,7 @@
 import { resourcesLinks, platformLinks, communityLinks } from "../constants";
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t py-10 border-neutral-700 flex justify-around">
+    <footer className="border-t py-10 border-neutral-700 flex justify-around">
       <div className="flex justify-between lg:w-[70vw] w-[95vw]">
         <div>
           <h3 className="text-md font-semibold mb-4">Resources</h3>
